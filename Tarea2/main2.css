@@ -1,3 +1,35 @@
 .oculto {
     display: none;  /*permite que no se vea el <div con el analisis*/
 }
+
+#agregar-familiar{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#eliminar-familiar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#calcular{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#resetear{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.familiar{
+    margin-top: 10px;
+    margin-bottom: 10px;  /* Espacio entre los elementos */
+    width: 500px;  /* Ajusta el ancho del contenedor */
+    margin-left: 20px;
+}
+
+#calculo{
+    margin-top: 10px;
+    margin-left: 20px;
+}

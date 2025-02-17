@@ -50,11 +50,14 @@ function crearIntegrantes(cantidadIntegrantes){
 function crearIntegrante(indice){
     const $div = document.createElement('div');  
     $div.className = 'integrante';
+    $div.classList.add('integrante', 'd-flex', 'align-items-center');
 
     const $label = document.createElement('label');  
     $label.textContent = 'Edad del integrante #: ' + (indice + 1); 
+    $label.classList.add('form-label');
     const $input = document.createElement('input'); 
     $input.type = 'number';
+    $input.classList.add('form-control');
 
     $div.appendChild($label);  //<div> ... </div>
     $div.appendChild($input);  //<label> Edad del integrante... </label>

@@ -1,3 +1,48 @@
 .oculto {
     display: none;  /*permite que no se vea el <div con el analisis*/
 }
+
+.entrada{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 1rem; /* mb-3 de Bootstrap */
+    display: flex; /* d-flex de Bootstrap */
+    align-items: center; /* align-items-center de Bootstrap */
+    gap: 10px;
+}
+
+#numero-integrantes{
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 1rem; /* mb-3 de Bootstrap */
+    display: flex; /* d-flex de Bootstrap */
+    align-items: center; /* align-items-center de Bootstrap */
+    width: 200px;
+}
+
+#integrantes{
+    padding-left: 20px;
+}
+
+.integrante {
+    margin-bottom: 10px;  /* Espacio entre los elementos */
+    width: 500px;  /* Ajusta el ancho del contenedor */
+}
+
+.d-flex {
+    display: flex;  /* Flexbox */
+    gap: 10px;  /* Espacio entre el label y el input */
+}
+
+.align-items-center {
+    align-items: center;  /* Centra verticalmente los elementos */
+}
+
+#resetear{
+    margin-left: 20px;
+}
+
+#analisis{
+    margin-top: 10px;
+    padding-left: 20px;
+}

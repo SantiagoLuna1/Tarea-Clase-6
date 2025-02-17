@@ -33,11 +33,14 @@ document.querySelector('#resetear').onclick = resetear;
 function agregarFamiliar(){
     const $div = document.createElement('div');  
     $div.className = 'familiar';
+    $div.classList.add('familiar', 'd-flex', 'align-items-center');
 
     const $label = document.createElement('label');  
     $label.textContent = 'Sueldo del familiar:';
+    $label.classList.add('form-label');
     const $input = document.createElement('input'); 
     $input.type = 'number';
+    $input.classList.add('form-control');
 
     $div.appendChild($label); 
     $div.appendChild($input);
